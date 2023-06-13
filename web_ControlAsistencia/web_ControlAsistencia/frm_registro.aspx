@@ -6,11 +6,11 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Control de asistencias</title>
-    <center><h1>Sistema de control de asistencia a eventos</h1></center>
     <link href="estilos.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
+        <center><h1>Sistema de control de asistencia a eventos</h1></center>
         <div>
             <center>
                 <div class="div2">
@@ -21,9 +21,9 @@
                         <asp:ListItem>No</asp:ListItem>
                     </asp:DropDownList>
                     <asp:Button ID="btn_Registrar" runat="server" Text="Registrar" Width="150" Height="33" CssClass="botones" OnClick="btn_Registrar_Click" />
-                    <br /><br /><br />
-                    <asp:Label ID="lbl_mensaje" runat="server" Text="mensaje" Visible="False"></asp:Label>
                     <br /><br />
+                    <asp:Label ID="lbl_mensaje" runat="server" Text="mensaje" Visible="False"></asp:Label>
+                    <br />
                     <asp:Label ID="Label1" runat="server" Text="Contador de personas:" CssClass="label"></asp:Label>
                     <asp:Label ID="lbl_contador" runat="server" Text="0" CssClass="label"></asp:Label>
                     <br /><br />
