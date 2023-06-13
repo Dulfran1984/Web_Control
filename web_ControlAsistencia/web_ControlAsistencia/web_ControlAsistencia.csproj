@@ -72,6 +72,10 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cls_asistencia.cs" />
+    <Compile Include="cls_Conexion.cs" />
+    <Compile Include="cls_ConsultarAsistencia.cs" />
+    <Compile Include="cls_RegistrarAsistencia.cs" />
     <Compile Include="frm_registro.aspx.cs">
       <DependentUpon>frm_registro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

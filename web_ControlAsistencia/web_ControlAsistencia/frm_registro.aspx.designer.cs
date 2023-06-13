@@ -60,6 +60,15 @@ namespace web_ControlAsistencia
         protected global::System.Web.UI.WebControls.Button btn_Registrar;
 
         /// <summary>
+        /// Control lbl_mensaje.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_mensaje;
+
+        /// <summary>
         /// Control Label1.
         /// </summary>
         /// <remarks>
@@ -76,5 +85,14 @@ namespace web_ControlAsistencia
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbl_contador;
+
+        /// <summary>
+        /// Control dtg_Asisten.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView dtg_Asisten;
     }
 }
